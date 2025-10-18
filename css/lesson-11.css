@@ -1,0 +1,19 @@
+body{
+    background-color: skyblue
+}
+
+#p1{
+    color: tomato;
+}
+
+#p2{
+    color: rgb(159,10,209);
+}
+
+#p3{
+    color:#e60767 ;
+}
+
+#p4{
+    color: hsl(34, 87%, 39%);
+}
