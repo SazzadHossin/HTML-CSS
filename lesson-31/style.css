@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    border: 5px solid black;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 86%, 41%);
+}
+
+#box2{
+    background-color: hsl(62, 85%, 42%);
+}
+
+#box3{
+    background-color: hsl(111, 86%, 46%);
+}
+
+#box4{
+    background-color: hsl(229, 86%, 41%);
+}
