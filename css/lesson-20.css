@@ -1,0 +1,17 @@
+#box1{
+    background-color: rgba(22, 22, 228, 0.8);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+     background-color: rgba(215, 90, 17, 0.8);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

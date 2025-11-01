@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(188, 41, 41);
+    font-size: 2em;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+span{
+    background-color: rgb(128, 128, 200);
+    font-size: 2em;
+    display: inline-block;
+}

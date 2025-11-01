@@ -1,0 +1,53 @@
+/* for button */
+button:hover{
+    font-size: 1.2rem;
+    background-color: rgb(232, 17, 17);
+}
+
+button:active{
+    font-size: 1.1rem;
+    background-color: rgb(13, 236, 166);
+}
+
+/* for link */
+a:link{
+    color: green;
+}
+
+a:hover{
+    color: red;
+    font-size: 1.1rem;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:visited{
+    color: darkmagenta;
+}
+
+/* for list */
+li:not(:hover){
+    background-color: gray;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+li:nth-child(even){
+    background-color: blue;
+}
+
+
+/* for div */
+#greetings p{
+    background-color: rgb(21, 191, 225);
+    padding: 10px;
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}

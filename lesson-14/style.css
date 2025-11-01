@@ -1,0 +1,15 @@
+/* For text we use text shadow */
+h1{
+    /* text-shadow: 3px 3px 5px hsl(0, 87%, 24%); */
+
+    /* we can use two shadow in one line */
+    text-shadow: 3px 4px 5px rgb(64, 64, 106), -3px -4px 5px rgb(232, 82, 36);
+}
+
+/* For box we use box shadow */
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px;
+}
